@@ -1,0 +1,7 @@
+
+
+async function Print(){
+ return 123;
+}
+
+
