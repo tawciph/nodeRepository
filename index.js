@@ -17,6 +17,7 @@ async function main(){
 var printName=await Print();
 var b=myFunc.MyNodeFunction();
 console.log(b);
+console.log("Hello Wolrd");
 console.log(printName);
 var getData=await GetBigData();
     Promise.all([printName,getData]);
