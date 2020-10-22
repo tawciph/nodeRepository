@@ -11,9 +11,11 @@ async function GetBigData(){
     },5000);
 }
 
-function main(){
-
-    Promise.all([print(),GetBigData()]);
+async function main(){
+var printName=await Print();
+console.log(printName);
+var getData=await GetBigData();
+    Promise.all([printName,getData]);
 }
 
 main();
