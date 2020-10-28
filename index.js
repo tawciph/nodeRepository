@@ -1,6 +1,7 @@
 
 var myFunc= require("./user");
-
+const userModel=require("./models/usermodel");
+var user=new userModel.UserModel("a",'b');
 
 async function Print(){
  return 123;
