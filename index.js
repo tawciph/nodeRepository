@@ -23,4 +23,5 @@ var getData=await GetBigData();
     Promise.all([printName,getData]);
 }
 
+let name="tauseef";
 main();
