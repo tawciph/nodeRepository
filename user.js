@@ -1,0 +1,6 @@
+
+
+
+exports.MyNodeFunction=()=>{
+    return "tauseef";
+}
